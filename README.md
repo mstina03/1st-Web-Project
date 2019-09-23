@@ -1,9 +1,15 @@
-# 1st-Web-Project
-Build Your Portfolio: 1st Web Project
+# 1st-Web-Project Build Your Portfolio
 
 
-Name: ##Tina Pollard
-Overview/description of the project:
-Details on how to use webpage & what functionality is offered:
-Technologies Used: ( .html , .css )
-Ideas for future improvement (minimum of 3):
+## Tina Pollard
+
+### Overview/description of the project:
+
+### Details on how to use webpage & what functionality is offered:
+
+### Technologies Used: 
+    1. .html
+    2. .css
+    3. .js
+
+### Ideas for future improvement (minimum of 3):
