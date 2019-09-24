@@ -21,3 +21,6 @@
     3. .js
 
 ### Ideas for future improvement (minimum of 3):
+    1. Add Animation to spice things up 
+    2. Experiment with the layout
+    3. Experiment with colors 
