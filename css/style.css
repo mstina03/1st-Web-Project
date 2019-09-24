@@ -6,7 +6,6 @@ header {
     background-color: white;
 }
 
-
 nav {
     display: flex;
 }
@@ -14,22 +13,24 @@ nav {
 nav>article {
     flex: 1;
 }
-section{
+
+section {
     margin: 10px 0px;
     padding: 10px 10px;
     box-shadow: -1px -1px 6px #888888;
     background-color: rgba(255, 192, 203, 0.267);
 }
 
-a{
+a {
     margin: 5px 0px;
     padding: 5px 5px;
 }
+
 img {
     height: 175px;
 }
 
-p{
+body>p {
     text-align: center;
     font-family: "Times New Roman", Times, serif;
     font-size: 1.5em;
@@ -37,4 +38,27 @@ p{
 
 body{
     background-color: whitesmoke;
+}
+
+form {
+    box-shadow: -1px -1px 6px #888888;
+}
+
+form>article {
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+
+legend {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5em;
+}
+
+fieldset {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5em;
+    background-color: white;
+    text-align: center;
 }
