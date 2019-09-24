@@ -2,8 +2,9 @@ header {
     margin: 5px 0px;
     padding: 0px 5px;
     text-align: center;
-    font-family: Helvetica,"Times New Roman", Times, serif;
+    font-family: Helvetica, "Times New Roman", Times, serif;
     background-color: white;
+    font-size: 1.1em;
 }
 
 nav {
@@ -26,13 +27,32 @@ a {
     padding: 5px 5px;
 }
 
-img {
+header>figure>img {
     height: 175px;
+}
+
+nav>figure>img {
+    height: 555px;
+    border-style: double;
+    border-color: #888888; 
+   
+}
+
+#myCanvas {
+    
+    margin: autopx 0px;
+    padding: 10px 10px;
+    width: 1000px;
+    border-style: double;
+    border-color: #888888;
+    background-color: rgba(255, 192, 203, 0.267);
+    font-size: 20px;
+    
 }
 
 body>p {
     text-align: center;
-    font-family: Helvetica,"Times New Roman", Times, serif;
+    font-family: Helvetica, "Times New Roman", Times, serif;
     font-size: 1.5em;
 }
 
@@ -50,14 +70,14 @@ form>article {
 }
 
 legend {
-    font-family: Helvetica,"Times New Roman", Times, serif;
+    font-family: Helvetica, "Times New Roman", Times, serif;
     font-size: 1.5em;
 }
 
 fieldset {
     margin: 10px 10px;
     padding: 10px 10px;
-    font-family: Helvetica,"Times New Roman", Times, serif;
+    font-family: Helvetica, "Times New Roman", Times, serif;
     font-size: 1.5em;
     background-color: white;
     text-align: center;
@@ -73,9 +93,10 @@ fieldset {
     height: 50px;
     font-size: 14pt;
     width: 500px;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
 }
-#msgid{
+
+#msgid {
     width: 500px;
     font-size: 14pt;
 }
