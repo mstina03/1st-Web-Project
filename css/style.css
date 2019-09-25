@@ -22,6 +22,15 @@ body>nav {
     background-color: rgba(255, 192, 203, 0.267);
 }
 
+#home,#work{
+    margin: 10px 0px;
+    padding: 10px 10px;
+    box-shadow: -1px -1px 6px #888888;
+    background-color: rgba(255, 192, 203, 0.267);
+    height: 700px;
+    width: 1620px;
+}
+
 section {
     margin: 10px 0px;
     padding: 10px 10px;
