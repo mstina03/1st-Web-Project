@@ -127,3 +127,11 @@ fieldset {
     font-size: 14pt;
     background-color: whitesmoke;
 }
+h1{
+    text-align: center;
+    font-size: 100pt;
+    font-family: Helvetica, "Times New Roman", Times, serif;
+}
+#port{
+    text-align: center;
+}
