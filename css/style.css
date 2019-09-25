@@ -81,10 +81,6 @@ body>p {
     font-size: 1.5em;
 }
 
-body {
-    background-color: whitesmoke;
-}
-
 form {
     box-shadow: -1px -1px 6px #888888;
 }
@@ -128,10 +124,14 @@ fieldset {
     background-color: whitesmoke;
 }
 h1{
-    text-align: center;
-    font-size: 100pt;
+    text-align: right;
+    font-size: 80pt;
     font-family: Helvetica, "Times New Roman", Times, serif;
+    padding-bottom: 0px;
+    color: #888888;
+ 
 }
+
 #port{
     text-align: center;
 }
