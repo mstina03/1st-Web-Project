@@ -32,11 +32,11 @@
                 <article>
                     <br>
                     <label>Name: </label>
-                    <p><input id="textboxid" type="text" required="required" name="name" /></p>
+                    <p><input id="nameid" type="text" required="required" name="name" /></p>
                 </article>
                 <article>
                     <label>E-mail Address: </label>
-                    <p><input id="textboxid" type="email" required="required" name="email" /></p>
+                    <p><input id="emailid" type="email" required="required" name="email" /></p>
                 </article>
                 <article>
                     <label>Message:</label>
@@ -44,14 +44,15 @@
                     </p>
                 </article>
                 <article>
-                    <input id="sendid" type="submit" value="Send" name="submit" />
+                    <input id="sendid" type="submit" value="Send" name="submit" onclick="clickHandler()" />
                 </article>
             </fieldset>
 
         </form>
     </summary>
 
-
+    <script type="text/javascript" src="js/script.js">
+    </script>
 </body>
 
 </html>

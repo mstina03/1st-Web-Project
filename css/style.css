@@ -107,7 +107,7 @@ fieldset {
     text-align: center;
 }
 
-#textboxid {
+#emailid, #nameid {
     height: 50px;
     font-size: 14pt;
     width: 500px;
