@@ -5,6 +5,8 @@
 
 ### User Stores
 
+**Formulate it from the perspective of the user. (software developer visiting your site, hiring manager, potential interviewers etc.)**
+
 1. **As a** developer, **I want to** provide resume info to potential employers **So That** TODO
 2. **As a** developer, **I want to** give potential employers a short description of who I am **So That** TODO
 3. **As a** developer, **I want to** display past projects to showcase my talent **So That** TODO
