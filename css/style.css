@@ -7,26 +7,24 @@ header {
     font-size: 1.1em;
 }
 
-.home-background {
-    background-image: url("../img/IMG_0039.jpeg");
-    background-repeat: no-repeat;
-    background-position: 0px 100px;
-    width: 900px;
-    height: 600px;
-    display: inline-block;
+nav {
+    display: flex;
 }
 
-nav>a {
+nav>article {
     flex: 1;
+}
+
+body>nav {
+    margin: 10px 0px;
+    padding: 10px 10px;
+    box-shadow: -1px -1px 6px #888888;
+    background-color: rgba(255, 192, 203, 0.267);
 }
 
 .ExampleWork>img {
     height: 550px;
     text-align: center;
-}
-
-ul {
-  list-style-type: lower-greek;
 }
 
 figcaption {
@@ -43,8 +41,7 @@ figcaption {
     text-align: center;
 }
 
-.navigation-menu {
-    display: flex;
+section {
     margin: 10px 0px;
     padding: 10px 10px;
     box-shadow: -1px -1px 6px #888888;
@@ -130,14 +127,10 @@ fieldset {
     background-color: whitesmoke;
 }
 
-.greeting {
+h1 {
     text-align: right;
     font-size: 80pt;
     font-family: Helvetica, "Times New Roman", Times, serif;
     padding-bottom: 0px;
-    color: #eee;
-    position: relative;
-    top: -400px;
-    display: inline-block;
-    background-color: rgba( 0, 0, 0, 0.25 );
+    color: #888888;
 }
