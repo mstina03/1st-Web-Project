@@ -24,7 +24,9 @@ body>nav {
 }
 
 figcaption {
-    font-size: 25px;
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
 }
 
 #home, #work {
@@ -162,8 +164,6 @@ fieldset {
 #resumeImg {
     height: 500px;
     width: 500px;
-    position: relative;
-    top: 50px;
 }
 
 #mainBody {
