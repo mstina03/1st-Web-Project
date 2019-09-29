@@ -98,15 +98,14 @@ fieldset {
     font-family: Helvetica, "Times New Roman", Times, serif;
     padding-bottom: 0px;
     color: #eee;
-     position: relative;
-     top: 200px;
-     background-color: rgba( 0, 0, 0, 0.25 );
+    position: relative;
+    top: 200px;
+    background-color: rgba( 0, 0, 0, 0.25);
 }
 
 .navigation-menu {
     list-style-type: none;
     padding-left: 0px;
-    
 }
 
 /* Remove the numbers from the list in nav */
@@ -160,8 +159,6 @@ fieldset {
 }
 
 #resumeImg {
-    border-style: double;
-    border-color: #888888;
     height: 555px;
     width: 500px;
     position: relative;
