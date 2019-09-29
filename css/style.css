@@ -39,8 +39,8 @@ figcaption {
 
 #myCanvas {
     padding: 10px;
-    width: 1000px;
-    font-size: 20px;
+    width: 800px;
+    font-size: 24px;
 }
 
 #myResume {
@@ -152,21 +152,22 @@ fieldset {
 }
 
 #aboutImg {
-    height: 555px;
+    height: 500px;
+    width: 500px;
     border-style: double;
     border-color: #888888;
-    width: 500px;
+    background: white;
 }
 
 #resumeImg {
-    height: 555px;
+    height: 500px;
     width: 500px;
     position: relative;
     top: 50px;
 }
 
 #mainBody {
-    background-image: url("../img/IMG_0039.jpeg");
+    background-image: url("../img/TinaBW.png");
     background-repeat: no-repeat;
     background-position: 0px 125px;
 }
