@@ -6,15 +6,19 @@
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <header>
-    <figure>
-        <img src="img/TinaLogo.png" alt=" TinaLogo">
-    </figure>
-    <nav class="navigation-menu">
-        <a href="index.html"> Home</a>
-        <a href="about.html">About</a>
-        <a href="work.html">Portfolio</a>
-        <a href="resume.html">Resume</a>
-        <a href="contact.html">Contact</a>
+    <nav>
+        <figure>
+            <img src="img/TinaLogo.png" alt=" TinaLogo" class="Logo">
+        </figure>
+        <div class="navigation-menu">
+            <ol>
+                <li class="menu"><a href="index.html"> Home</a></li>
+                <li class="menu"><a href="about.html">About</a></li>
+                <li class="menu"><a href="work.html">Portfolio</a></li>
+                <li class="menu"><a href="resume.html">Resume</a></li>
+                <li class="menu"><a href="contact.html">Contact</a></li>
+            </ol>
+        </div>
     </nav>
 </header>
 
@@ -28,21 +32,21 @@
         <form>
             <fieldset>
                 <legend>Contact Me</legend>
-               
-                    <br>
-                    <label>Name: </label>
-                    <p><input id="nameid" type="text" required="required" name="name" /></p>
-                
-              
-                    <label>E-mail Address: </label>
-                    <p><input id="emailid" type="email" required="required" name="email" /></p>
-               
-                    <label>Message:</label>
-                    <p><textarea id="msgid" name="paragraph_text" cols="50" rows="10" required="required"></textarea>
-                    </p>
-               
-                    <input id="sendid" type="submit" value="Send" name="submit" onclick="clickHandler()" />
-              
+
+                <br>
+                <label>Name: </label>
+                <p><input id="nameid" type="text" required="required" name="name" /></p>
+
+
+                <label>E-mail Address: </label>
+                <p><input id="emailid" type="email" required="required" name="email" /></p>
+
+                <label>Message:</label>
+                <p><textarea id="msgid" name="paragraph_text" cols="50" rows="10" required="required"></textarea>
+                </p>
+
+                <input id="sendid" type="submit" value="Send" name="submit" onclick="clickHandler()" />
+
             </fieldset>
 
         </form>

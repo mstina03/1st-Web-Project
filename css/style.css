@@ -1,10 +1,6 @@
 header {
-    margin: 5px 0px;
-    padding: 0px 5px;
-    text-align: center;
-    font-family: Helvetica, "Times New Roman", Times, serif;
     background-color: white;
-    font-size: 1.1em;
+    box-shadow: -1px -1px 6px #888888;
 }
 
 nav {
@@ -41,29 +37,6 @@ figcaption {
     text-align: center;
 }
 
-section {
-    margin: 10px 0px;
-    padding: 10px 10px;
-    box-shadow: -1px -1px 6px #888888;
-    background-color: rgba(255, 192, 203, 0.267);
-}
-
-a {
-    margin: 5px 0px;
-    padding: 5px 5px;
-}
-
-header>figure>img {
-    height: 175px;
-}
-
-nav>figure>img {
-    height: 555px;
-    border-style: double;
-    border-color: #888888;
-    width: 500px;
-}
-
 #myCanvas {
     padding: 10px;
     width: 1000px;
@@ -75,14 +48,6 @@ nav>figure>img {
     height: 700px;
     width: 1000px;
     font-size: 20px;
-}
-
-#resumeImg {
-    border-style: none;
-    height: 555px;
-    width: 470px;
-    position: relative;
-    top: 50px;
 }
 
 body>p {
@@ -136,9 +101,78 @@ h1 {
 }
 
 .navigation-menu {
-    display: flex;
-    margin: 10px 0px;
-    padding: 10px 10px;
-    box-shadow: -1px -1px 6px #888888;
+    list-style-type: none;
+    padding-left: 0px;
+    float: right;
+}
+
+/* Remove the numbers from the list in nav */
+
+.menu {
+    display: inline-block;
+}
+
+.menu a::after {
+    padding: 40px 0px;
+    margin: 10px 10px;
+    display: inline-block;
+    content: '';
+}
+
+/* Style the links inside the navigation bar */
+
+.menu a {
+    color: #333;
+    font-weight: bold;
+    font-family: Helvetica, "Times New Roman", Times, serif;
+    margin: 10px 10px;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
     background-color: rgba(255, 192, 203, 0.267);
+    box-shadow: -1px -1px 6px #888888;
+    /* Add rounded corners to shadow box */
+    border-radius: 20px;
+}
+
+/* Change the color of links on hover */
+
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+
+.menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.Logo {
+    height: 150px;
+    width: 350px;
+}
+
+#aboutImg {
+    height: 555px;
+    border-style: double;
+    border-color: #888888;
+    width: 500px;
+}
+
+#resumeImg {
+    border-style: double;
+    border-color: #888888;
+    height: 555px;
+    width: 500px;
+    position: relative;
+    top: 50px;
+}
+
+#mainBody {
+    background-image: url("../img/IMG_0039.jpeg");
+    background-repeat: no-repeat;
+    background-position: 0px 125px;
 }
