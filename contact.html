@@ -23,33 +23,39 @@
 </header>
 
 <body>
-    <p>
+    <p class="heading">
         Web Designer & Developer with a passion for designing & developing custom websites.
     </p>
+    <nav class="contact">
+        <div>
+            <figure>
+                <img id="contactMe" src="img/newsletter-email-icon-isolated-on-pink-square.jpg" alt=" Contact Me">
+            </figure>
+            <figcaption>Contact Me</figcaption>
+        </div>
+
+        <div class="contactForm">
+            <form>
+                <fieldset>
+                    <label>Name: </label>
+                    <p><input id="nameid" type="text" required="required" name="name" /></p>
 
 
-    <form>
-        <fieldset>
-            <legend>Contact Me</legend>
+                    <label>E-mail Address: </label>
+                    <p><input id="emailid" type="email" required="required" name="email" /></p>
 
-            <br>
-            <label>Name: </label>
-            <p><input id="nameid" type="text" required="required" name="name" /></p>
+                    <label>Message:</label>
+                    <p><textarea id="msgid" name="paragraph_text" cols="50" rows="10" required="required"></textarea>
+                    </p>
 
+                    <input id="sendid" type="submit" value="Send" name="submit" onclick="clickHandler()" />
 
-            <label>E-mail Address: </label>
-            <p><input id="emailid" type="email" required="required" name="email" /></p>
+                </fieldset>
 
-            <label>Message:</label>
-            <p><textarea id="msgid" name="paragraph_text" cols="50" rows="10" required="required"></textarea>
-            </p>
+            </form>
+        </div>
 
-            <input id="sendid" type="submit" value="Send" name="submit" onclick="clickHandler()" />
-
-        </fieldset>
-
-    </form>
-
+    </nav>
 
     <script type="text/javascript" src="js/script.js">
     </script>

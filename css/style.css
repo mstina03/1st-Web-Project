@@ -7,17 +7,6 @@ nav {
     display: flex;
 }
 
-nav>article {
-    flex: 1;
-}
-
-body>nav {
-    margin: 10px 0px;
-    padding: 10px 10px;
-    box-shadow: -1px -1px 6px #888888;
-    background-color: rgba(255, 192, 203, 0.267);
-}
-
 .ExampleWork>img {
     height: 550px;
     text-align: center;
@@ -29,13 +18,16 @@ figcaption {
     font-weight: bold;
 }
 
-#home, #work {
+.resume, .about, #work, .contact {
     margin: 10px 0px;
     padding: 10px 10px;
     box-shadow: -1px -1px 6px #888888;
     background-color: rgba(255, 192, 203, 0.267);
     height: 700px;
     width: 1620px;
+}
+
+#work {
     text-align: center;
 }
 
@@ -52,18 +44,8 @@ figcaption {
     font-size: 20px;
 }
 
-body>p {
+.heading {
     text-align: center;
-    font-family: Helvetica, "Times New Roman", Times, serif;
-    font-size: 1.5em;
-}
-
-form {
-    box-shadow: -1px -1px 6px #888888;
-    background-color: rgba(255, 192, 203, 0.267);
-}
-
-legend {
     font-family: Helvetica, "Times New Roman", Times, serif;
     font-size: 1.5em;
 }
@@ -72,16 +54,10 @@ fieldset {
     font-family: Helvetica, "Times New Roman", Times, serif;
     font-size: 1.5em;
     text-align: center;
+    border: 0;
 }
 
-#emailid, #nameid {
-    height: 50px;
-    font-size: 14pt;
-    width: 500px;
-    background-color: whitesmoke;
-}
-
-#sendid {
+#emailid, #nameid, #sendid {
     height: 50px;
     font-size: 14pt;
     width: 500px;
@@ -161,9 +137,11 @@ fieldset {
     background: white;
 }
 
-#resumeImg {
+#resumeImg, contactMe {
     height: 500px;
     width: 500px;
+    margin: 10px 0px;
+    padding: 10px 10px;
 }
 
 #mainBody {
