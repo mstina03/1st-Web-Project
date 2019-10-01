@@ -29,7 +29,7 @@
     <nav class="contact">
         <div>
             <figure>
-                <img id="contactMe" src="img/newsletter-email-icon-isolated-on-pink-square.jpg" alt=" Contact Me">
+                <img id="contactImg" src="img/newsletter-email-icon-isolated-on-pink-square.jpg" alt=" Contact Me">
             </figure>
             <figcaption>Contact Me</figcaption>
         </div>
@@ -37,28 +37,28 @@
         <div class="contactForm">
             <form>
                 <fieldset>
-                    <label>Name: </label>
-                    <p><input id="nameid" type="text" required="required" name="name" /></p>
-
-
-                    <label>E-mail Address: </label>
-                    <p><input id="emailid" type="email" required="required" name="email" /></p>
-
-                    <label>Message:</label>
-                    <p><textarea id="msgid" name="paragraph_text" cols="50" rows="10" required="required"></textarea>
-                    </p>
-
-                    <input id="sendid" type="submit" value="Send" name="submit" onclick="clickHandler()" />
-
+                    <nav>
+                        <label>Name: </label>
+                        <p><input id="nameid" type="text" required="required" name="name" /></p>
+                    </nav>
+                    <nav>
+                        <label>E-mail Address: </label>
+                        <p><input id="emailid" type="email" required="required" name="email" /></p>
+                    </nav>
+                    <nav>
+                        <label>Message:</label>
+                        <div>
+                            <p><textarea id="msgid" name="paragraph_text" cols="50" rows="10"
+                                    required="required"></textarea></p>
+                            <input id="sendid" type="submit" value="Send" name="submit" onclick="clickHandler()" />
+                        </div>
+                    </nav>
                 </fieldset>
-
             </form>
         </div>
-
     </nav>
 
-    <script type="text/javascript" src="js/script.js">
-    </script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
