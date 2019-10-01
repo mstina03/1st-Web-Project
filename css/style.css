@@ -90,8 +90,9 @@ label {
     color: rgb(241, 40, 147);
     font-size: 50px;
 }
-#resumeLabel{
-    font-size: 50px;   
+
+#resumeLabel {
+    font-size: 50px;
 }
 
 #msgid {
@@ -199,4 +200,19 @@ label {
     background-image: url("../img/TinaBW.png");
     background-repeat: no-repeat;
     background-position: 0px 125px;
+}
+
+.footerLogos {
+    height: 70px;
+    width: 75px;
+}
+
+footer {
+    position: fixed;
+    margin-top: 2%;
+    width: 100%;
+    height : 60px;
+    text-align: right;
+    bottom: 0;
+    display: inline-block;
 }
