@@ -12,9 +12,8 @@ nav {
     display: flex;
 }
 
-.ExampleWork>img {
-    height: 550px;
-    text-align: center;
+.listStyle {
+    list-style-type: none;
 }
 
 figcaption {
@@ -115,19 +114,19 @@ fieldset {
 /* Style the links inside the navigation bar */
 
 .menu a {
-    color: #333;
-    font-weight: bold;
-    font-family: Helvetica, "Times New Roman", Times, serif;
     margin: 10px 10px;
     padding: 14px 14px;
-    /* Remove the underline on the links */
-    text-decoration: none;
-    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Helvetica, "Times New Roman", Times, serif;
     justify-content: space-around;
     background-color: rgba(255, 192, 203, 0.267);
     box-shadow: -1px -1px 6px #888888;
     /* Add rounded corners to shadow box */
     border-radius: 20px;
+    /* Remove the underline on the links */
+    text-decoration: none;
 }
 
 /* Change the color of links on hover */
@@ -141,6 +140,10 @@ fieldset {
     height: 150px;
     width: 350px;
     float: left;
+}
+
+#ExampleWork {
+    height: 550px;
 }
 
 #aboutImg {
