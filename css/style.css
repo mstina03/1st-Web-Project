@@ -90,6 +90,9 @@ label {
     color: rgb(241, 40, 147);
     font-size: 50px;
 }
+#resumeLabel{
+    font-size: 50px;   
+}
 
 #msgid {
     width: 500px;
