@@ -4,7 +4,6 @@
 <head>
     <title>Contact Me</title>
     <link rel="stylesheet" href="css/style.css" />
-    <script type="text/javascript" src="js/script.js"></script>
 </head>
 <header>
     <nav>
@@ -35,7 +34,8 @@
             <figcaption class="Inquiry">Contact Me</figcaption>
         </div>
 
-        <form>
+
+        <form action="#" method="POST">
             <fieldset>
                 <nav>
                     <label>Name: </label>
@@ -51,12 +51,11 @@
                     <div>
                         <p><textarea id="msgid" name="paragraph_text" cols="50" rows="10"
                                 required="required"></textarea></p>
-                        <input id="sendid" type="submit" value="Send" name="submit" onclick="clickHandler()" />
+                        <input id="sendid" type="submit" value="Send" name="submit" />
                     </div>
                 </nav>
             </fieldset>
         </form>
-
     </nav>
 
     <footer>
@@ -64,6 +63,7 @@
         <a href="https://github.com/mstina03" target="_blank"><img src="img/github.svg" alt="Linked In Logo" class="footerLogos"></a>
         <a href="contact.html"><img src="img/iphone-email-envelope.png" alt="Email Logo" class="footerLogos"></a>
     </footer>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
