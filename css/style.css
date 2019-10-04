@@ -201,16 +201,22 @@ label {
     background-position: 0px 125px;
 }
 
-.footerLogos {
-    height: 70px;
-    width: 75px;
+#emailMe, #linkedin {
+    height: 75px;
+    width: 90px;
+}
+
+#gitHub {
+    height: 80px;
+    width: 90px;
 }
 
 footer {
     position: fixed;
     margin-top: 2%;
     width: 99%;
-    height: 70px;
+    height: 90px;
     bottom: 0;
     text-align: right;
+    align-items: center;
 }
