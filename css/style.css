@@ -54,7 +54,7 @@ figcaption {
 
 .heading {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 fieldset {
@@ -63,7 +63,6 @@ fieldset {
 }
 
 form {
-    
     padding: 1rem .5rem;
     margin: .5rem 5rem;
 }
@@ -188,6 +187,7 @@ label {
     border-style: double;
     border-color: #888888;
     background: white;
+    border-radius: 50%;
 }
 
 #resumeImg {
