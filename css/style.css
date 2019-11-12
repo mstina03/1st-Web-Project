@@ -166,10 +166,11 @@ label {
 
 /* Change the color of links on hover */
 
-.menu a:hover {
+.menu a:hover, a.selected {
     background-color: #ddd;
     color: black;
 }
+
 
 .Logo {
     height: 7.5rem;
